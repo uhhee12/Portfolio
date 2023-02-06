@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메타에듀</title>
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+  
+    <link type="text/css" rel="stylesheet" href="./css/reset.css">
+    <link type="text/css" rel="stylesheet" href="./css/style.css">
+    
+ 
+</head>
+<body>
+    <header>
+        <a href="#"><img src="./images/logo.png" class="main-logo"></a>
+        <div class="head-Rbox">
+            <p class="b-25">1577-3047</p>
+            <p><span>admin</span>님 <a href="#"> <img src="./images/ic_setting.png"></a></p>
+            <button type="button" class="log-out">로그아웃<img src="./images/chevron-right.png"></button>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <div class="box m-box1">
+            <h3><span class="bar-box"></span>무지개 유치원</h3>
+            <div class="c-list c-list2">
+                <ul>
+                    <li>
+                        <img src="./images/c12.png">
+                        선생님
+                        <span class="b-25">100</span>
+                    </li>
+                    <li>
+                        
+                        <img src="./images/c13.png">
+                        반
+                        <span class="b-25">100</span>
+                    </li>
+                    <li>
+                        <img src="./images/c15.png">
+                        원아
+                        <span class="b-25">100</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="a-list">
+                <a href="#" class="sb-Ba">선생님 목록</a>
+                <a href="#" class="gr-Ba" 
+                data-toggle="modal"
+                data-target="#class-add">반 등록</a>
+                <a href="#" class="gr-B"
+                data-toggle="modal"
+                data-target="#class-revise">반 수정</a>
+                <a href="#" class="bg-Gya">반 삭제</a>
+            </div>
+
+            <p class="sub1-p">서울 강남구 선릉로 100길 44</p>
+
+            <div class="pp-box">
+                <div class="pp-img"></div>
+                <div class="inner-box">
+                    <p class="pp-title">원장님</p>
+                    <p class="font-30">두만식 ( loveislove )</p>
+                </div>
+            </div>
+
+            <div class="chart-box">
+                <figure class="mR-70">
+                    <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="120" xmlns="http://www.w3.org/2000/svg">
+                        <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                        <circle class="circle-chart__circle" stroke="url(#gradient)" stroke-width="2" stroke-dasharray="75,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                        <g class="circle-chart__info">
+                            <text class="circle-chart__percent" x="16.91549431" y="17" alignment-baseline="central" text-anchor="middle" font-size="5" font-weight="700">75%</text>
+                        </g>
+                        <defs>
+                            <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                              <stop offset="0%" stop-color="#a59ec9" />
+                              <stop offset="100%" stop-color="#1c1550" />
+                            </linearGradient>
+                          </defs>
+                    </svg>
+                    <p>전체 진도율</p>
+                </figure>
+
+                <figure>
+                    <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="120" xmlns="http://www.w3.org/2000/svg">
+                        <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                        <circle class="circle-chart__circle"stroke="url(#gradient2)" stroke-width="2" stroke-dasharray="75,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                        <g class="circle-chart__info">
+                            <text class="circle-chart__percent" x="16.91549431" y="17" alignment-baseline="central" text-anchor="middle" font-size="5"  font-weight="700">75%</text>
+                        </g>
+
+                        <defs>
+                            <linearGradient id="gradient2" x1="0%" y1="0%" x2="0%" y2="100%">
+                              <stop offset="0%" stop-color="#cfdce6" />
+                              <stop offset="100%" stop-color="#0f75bc" />
+                            </linearGradient>
+                          </defs>
+                    </svg>
+                    <p>이번주 접속 평균</p>
+                </figure>
+            </div>
+        </div>   <!--box m-box1-->
+
+        <div class="m-box2">
+                <img src="./images/search.png">
+                <h3 class="h3-000">유아원 상세</h3>
+        </div>
+
+        <div class="sel-Nbox">
+            <select class="sel-num">
+                <option>10개씩</option>
+            </select>
+        </div>
+
+
+        <div class="sub1-tab">
+            <ul class="tabs">
+                <li class="tab-link current" data-tab="tab-1">전체</li>
+                <li class="tab-link" data-tab="tab-2">버블</li>
+                <li class="tab-link" data-tab="tab-2-2">버블2</li>
+                <li class="tab-link" data-tab="tab-3">키바A</li>
+                <li class="tab-link" data-tab="tab-4">키바B</li>
+                <li class="tab-link" data-tab="tab-5">키바C</li>
+            </ul>
+    
+            <div id="tab-1" class="tab-content current">
+                <div class="box">
+                    <table class="table">
+                        <tr>
+                            <th>
+                                <input type="checkbox" class="check" name="menu" id="checkAll" onclick="fnCheckAll('menu','checkAll')"> 
+                                <label for="checkAll"><span></span></label>
+                            </th>
+                            <th>NO</th>
+                            <th>레벨</th>
+                            <th>반이름</th>
+                            <th>담당선생님</th>
+                            <th>선생님ID</th>
+                            <th>원아수</th>
+                            <th>상세</th>
+                        </tr>     
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c1"> <label for="c1"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>차현수</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c2"> <label for="c2"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>차현수</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c3"> <label for="c3"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>차현수</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c4"> <label for="c4"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>차현수</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c5"> <label for="c5"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>차현수</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c6"> <label for="c6"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>차현수</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c7"> <label for="c7"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>차현수</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c8"> <label for="c8"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>차현수</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c9"> <label for="c9"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>차현수</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c10"> <label for="c10"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>차현수</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                    </table>
+                    <div class="page">
+                        <ul>
+                            <li><a href="#" ><img src="./images/chevron-left.png"></a></li>
+                            <li><a href="#" class="hi">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li>...</li>
+                            <li><a href="#">11</a></li>
+                            <li><a href="#">12</a></li>
+                            <li><a href="#"><img src="./images/chevron-right.png"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="tab-2" class="tab-content">
+                <div class="box">
+                    <table class="table">
+                        <tr>
+                            <th>
+                                <input type="checkbox" class="check" name="menu" id="checkAll" onclick="fnCheckAll('menu','checkAll')"> 
+                                <label for="checkAll"><span></span></label>
+                            </th>
+                            <th>NO</th>
+                            <th>레벨</th>
+                            <th>반이름</th>
+                            <th>담당선생님</th>
+                            <th>선생님ID</th>
+                            <th>원아수</th>
+                            <th>상세</th>
+                        </tr>     
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c1"> <label for="c1"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>정재헌</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c2"> <label for="c2"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>정재헌</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c3"> <label for="c3"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>정재헌</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c4"> <label for="c4"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>정재헌</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c5"> <label for="c5"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>정재헌</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c6"> <label for="c6"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>정재헌</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c7"> <label for="c7"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>정재헌</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c8"> <label for="c8"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>정재헌</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c9"> <label for="c9"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>정재헌</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c10"> <label for="c10"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>정재헌</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                    </table>
+                    <div class="page">
+                        <ul>
+                            <li><a href="#" ><img src="./images/chevron-left.png"></a></li>
+                            <li><a href="#" class="hi">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li>...</li>
+                            <li><a href="#">11</a></li>
+                            <li><a href="#">12</a></li>
+                            <li><a href="#"><img src="./images/chevron-right.png"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tab-2-2" class="tab-content">
+                <div class="box">
+                    <table class="table">
+                        <tr>
+                            <th>
+                                <input type="checkbox" class="check" name="menu" id="checkAll" onclick="fnCheckAll('menu','checkAll')"> 
+                                <label for="checkAll"><span></span></label>
+                            </th>
+                            <th>NO</th>
+                            <th>레벨</th>
+                            <th>반이름</th>
+                            <th>담당선생님</th>
+                            <th>선생님ID</th>
+                            <th>원아수</th>
+                            <th>상세</th>
+                        </tr>     
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c1"> <label for="c1"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>정재헌</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c2"> <label for="c2"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>정재헌</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c3"> <label for="c3"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>정재헌</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c4"> <label for="c4"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>정재헌</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c5"> <label for="c5"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>정재헌</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c6"> <label for="c6"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>정재헌</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c7"> <label for="c7"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>정재헌</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c8"> <label for="c8"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>정재헌</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c9"> <label for="c9"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>정재헌</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c10"> <label for="c10"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>정재헌</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                    </table>
+                    <div class="page">
+                        <ul>
+                            <li><a href="#" ><img src="./images/chevron-left.png"></a></li>
+                            <li><a href="#" class="hi">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li>...</li>
+                            <li><a href="#">11</a></li>
+                            <li><a href="#">12</a></li>
+                            <li><a href="#"><img src="./images/chevron-right.png"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="tab-3" class="tab-content">
+                <div class="box">
+                    <table class="table">
+                        <tr>
+                            <th>
+                                <input type="checkbox" class="check" name="menu" id="checkAll" onclick="fnCheckAll('menu','checkAll')"> 
+                                <label for="checkAll"><span></span></label>
+                            </th>
+                            <th>NO</th>
+                            <th>레벨</th>
+                            <th>반이름</th>
+                            <th>담당선생님</th>
+                            <th>선생님ID</th>
+                            <th>원아수</th>
+                            <th>상세</th>
+                        </tr>     
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c1"> <label for="c1"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>이은유</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c2"> <label for="c2"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>이은유</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c3"> <label for="c3"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>이은유</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c4"> <label for="c4"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>이은유</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c5"> <label for="c5"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>이은유</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c6"> <label for="c6"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>이은유</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c7"> <label for="c7"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>이은유</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c8"> <label for="c8"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>이은유</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c9"> <label for="c9"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>이은유</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c10"> <label for="c10"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>이은유</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                    </table>
+                    <div class="page">
+                        <ul>
+                            <li><a href="#" ><img src="./images/chevron-left.png"></a></li>
+                            <li><a href="#" class="hi">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li>...</li>
+                            <li><a href="#">11</a></li>
+                            <li><a href="#">12</a></li>
+                            <li><a href="#"><img src="./images/chevron-right.png"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="tab-4" class="tab-content">
+                <div class="box">
+                    <table class="table">
+                        <tr>
+                            <th>
+                                <input type="checkbox" class="check" name="menu" id="checkAll" onclick="fnCheckAll('menu','checkAll')"> 
+                                <label for="checkAll"><span></span></label>
+                            </th>
+                            <th>NO</th>
+                            <th>레벨</th>
+                            <th>반이름</th>
+                            <th>담당선생님</th>
+                            <th>선생님ID</th>
+                            <th>원아수</th>
+                            <th>상세</th>
+                        </tr>     
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c1"> <label for="c1"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>이은혁</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c2"> <label for="c2"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>이은혁</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c3"> <label for="c3"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>이은혁</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c4"> <label for="c4"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>이은혁</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c5"> <label for="c5"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>이은혁</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c6"> <label for="c6"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>이은혁</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c7"> <label for="c7"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>이은혁</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c8"> <label for="c8"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>이은혁</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c9"> <label for="c9"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>이은혁</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c10"> <label for="c10"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>이은혁</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                    </table>
+                    <div class="page">
+                        <ul>
+                            <li><a href="#" ><img src="./images/chevron-left.png"></a></li>
+                            <li><a href="#" class="hi">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li>...</li>
+                            <li><a href="#">11</a></li>
+                            <li><a href="#">12</a></li>
+                            <li><a href="#"><img src="./images/chevron-right.png"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="tab-5" class="tab-content">
+                <div class="box">
+                    <table class="table">
+                        <tr>
+                            <th>
+                                <input type="checkbox" class="check" name="menu" id="checkAll" onclick="fnCheckAll('menu','checkAll')"> 
+                                <label for="checkAll"><span></span></label>
+                            </th>
+                            <th>NO</th>
+                            <th>레벨</th>
+                            <th>반이름</th>
+                            <th>담당선생님</th>
+                            <th>선생님ID</th>
+                            <th>원아수</th>
+                            <th>상세</th>
+                        </tr>     
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c1"> <label for="c1"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>서이경</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c2"> <label for="c2"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>서이경</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c3"> <label for="c3"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>서이경</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c4"> <label for="c4"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>서이경</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c5"> <label for="c5"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>서이경</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c6"> <label for="c6"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>서이경</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c7"> <label for="c7"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>서이경</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c8"> <label for="c8"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>서이경</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c9"> <label for="c9"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>서이경</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check" name="menu" id="c10"> <label for="c10"><span></span></label></td>
+                            <td>13</td>
+                            <td>키바A</td>
+                            <td>호랑이반</td>
+                            <td>서이경</td>
+                            <td>test123</td>
+                            <td>10</td>
+                            <td><button type="button" class="bu-btn" onclick="location.href='sub.html'">상세</button></td>
+                        </tr>
+                    </table>
+                    <div class="page">
+                        <ul>
+                            <li><a href="#" ><img src="./images/chevron-left.png"></a></li>
+                            <li><a href="#" class="hi">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li>...</li>
+                            <li><a href="#">11</a></li>
+                            <li><a href="#">12</a></li>
+                            <li><a href="#"><img src="./images/chevron-right.png"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    
+    <div
+    class="modal fade"
+    id="class-add"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="class-add"
+    aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="modal-title"><img src="./images/c13.png">반 등록</p>
+                
+                <div class="pd-40 teach-modal1">
+                    <table class="table2">
+                        <tr>
+                            <th>*레벨</th>
+                            <td>
+                                <select class="sel2 sel100">
+                                    <option>선택하세요.</option>
+                                    <option>버블</option>
+                                    <option>키바A</option>
+                                    <option>키바B</option>
+                                    <option>키바C</option>
+                                    <option>펌핑</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>*반 이름</th>
+                            <td><input type="text" class="ip ip2" value=""></td>
+                        </tr>
+                        <tr>
+                            <th>*담당 선생님</th>
+                            <td><input type="text" class="ip ip2" value=""></td>
+                        </tr>
+                        <tr>
+                            <th>담당 선생님ID</th>
+                            <td><input type="text" class="ip ip2" value=""></td>
+                        </tr>
+                    </table>
+                    <p class="ma-p">해당 계정을 등록하시겠습니까?</p>
+                    <p class="redTxt">! 공란이 존재합니다.</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="gy-btn wid-38"  data-dismiss="modal">취소</button>
+                <button type="submit" class="b-btn wid-60">저장하기</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div
+    class="modal fade"
+    id="class-revise"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="class-revise"
+    aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="modal-title"><img src="./images/c13.png">반 수정</p>
+                
+                <div class="pd-40 teach-modal1">
+                    <table class="table2">
+                        <tr>
+                            <th>*레벨</th>
+                            <td>
+                                <select class="sel2 sel100">
+                                    <option>버블</option>
+                                    <option>키바A</option>
+                                    <option>키바B</option>
+                                    <option>키바C</option>
+                                    <option>펌핑</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>*반 이름</th>
+                            <td><input type="text" class="ip ip2" value="호랑이반"></td>
+                        </tr>
+                        <tr>
+                            <th>*담당 선생님</th>
+                            <td><input type="text" class="ip ip2" value="이은유"></td>
+                        </tr>
+                        <tr>
+                            <th>담당 선생님ID</th>
+                            <td><input type="text" class="ip ip2" value="ghsike87"></td>
+                        </tr>
+                    </table>
+                    <p class="ma-p">해당 계정을 수정하시겠습니까?</p>
+                    <p class="redTxt">! 공란이 존재합니다.</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="gy-btn wid-38"  data-dismiss="modal">취소</button>
+                <button type="submit" class="b-btn wid-60">저장하기</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js'></script>
+    <script src="./js/chart.js"></script>
+    <script src='https://unpkg.com/popper.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+    <script>
+        /*탭메뉴*/
+        $(document).ready(function() {
+
+            $('ul.tabs li').click(function() {
+                var tab_id = $(this).attr('data-tab');
+
+                $('ul.tabs li').removeClass('current');
+                $('.tab-content').removeClass('current');
+
+                $(this).addClass('current');
+                $("#" + tab_id).addClass('current');
+            });
+
+        });
+        function fnCheckAll(checkBoxID, buttonID){
+   var elements = document.getElementsByName(checkBoxID);
+   [].forEach.call(elements, function(element){
+      var btnCheckAll = document.getElementById(buttonID);
+      if(btnCheckAll.checked){
+         element.checked = true;
+      }else{
+         element.checked = false;
+      }
+   });
+}
+
+    </script>
+</body>
+</html>
